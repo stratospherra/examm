@@ -1,0 +1,246 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c00; 
+    padding: 10px 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+
+
+.logo h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.profile {
+    display: flex;
+    margin-top: 100px;
+}
+
+.profile-image {
+    flex: 1;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.profile-info h2 {
+    border-bottom: 2px solid #c00;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.profile-info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.profile-info ul li {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #c00;
+    font-size: 16px;
+}
+
+
+
+#more-text {
+    display: none;
+}
+
+#more-text2 {
+    display: none;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+}
+
+
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.text-container hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+.text-container br {
+    display: block;
+    content: "";
+    margin-top: 20px; 
+}
+
+
+/* Стили для формы комментариев */
+ #commentForm {
+    margin-bottom: 20px;
+}
+
+#commentForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#commentForm input[type="text"],
+#commentForm textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#commentForm button {
+    background-color: #c00;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#commentForm button:hover {
+    background-color: #900;
+}
+
+
+.comments-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.comment {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+.comment strong {
+    font-weight: bold;
+}
+
+.comment p {
+    margin-top: 10px;
+    color: #cdcaca;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p:first-child {
+    font-weight: bold;
+}
