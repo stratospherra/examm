@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dorama.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Lee Seung Gi</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Биография</a></li>
+                <li><a href="movies.html">Фильмы</a></li>
+                <li><a href="series.html">Сериалы</a></li>
+                <li><a href="shows.html">Телешоу</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <section class="series">
+            <div class="series-image">
+                <img src="img/yuridicheskoe_kafe_462632.jpg" alt="Ли Сын Ги (Lee Seung Ki)">
+            </div>
+            <div class="series-info">
+                <h2>Юридическое кафе</h2>
+                <ul>
+                    <li><strong>Другие названия:</strong> The Law Cafe / Beobdaelo Salanghala / Beobdaero Saranghara / Beopdaero saranghara / Love According to the Law / Love by Law / Любовь по закону / 법대로 사랑하라</li>
+                    <li><strong>Страна:</strong> Южная корея</li>
+                    <li><strong>Премьера:</strong> 5 сентября 2022</li>
+                    <li><strong>Телеканал / платформа:</strong> KBS2, ViuTV</li> 
+                    <li><strong>Продолжительность:</strong> 80 мин. / 01:20 / серия</li>
+                    <li><strong>Кол-во серий</strong> 16</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="text-container">
+            <p>Романтическая дорама расскажет о бывшем прокуроре, который теперь живет за счет арендной платы, взимаемой с принадлежащего ему здания, и Ким Ю Ри, которая открывает кафе в этом здании.</p>
+            <p>Ким Чжон Хо (Ли Сын Ги) — молодой человек недюжинного ума, который раньше работал прокурором и которого называли «гениальный монстр», но из-за коррупционного скандала своего отца был вынужден уволиться, и с этого времени безработный.</p>
+            <p>Чжон Хо живёт на крыше принадлежащего ему здания, а остальные помещения сдаёт в аренду, за счёт чего и живёт. Ким Чон Хо давно дружит и тайно влюблён в свою бывшую одноклассницу Ким Ю Ри.</p>
+            <p>Ким Ю Ри (Ли Сэ Ён) — красивая и умная женщина. Из-за неудачных романтических отношений в прошлом, она решила остаться одинокой до конца своей жизни. Ю Ри работает юристом в крупной юридической фирме, но однажды принимает решение уволиться и открыть «Юридическое кафе» в здании, которым владеет Ким Чжон Хо.</p>
+            <p>В кафе подают кофе и оказывают юридические услуги. Любой желающий может зайти и просто выпить кофе, или получить юридическую консультацию.</p>
+        </div>
+
+        <h3>В ролях:</h3>
+
+        <button class="scroll-btn" id="prev-btn">&#10094;</button>
+        <div class="actor-container">
+            <div class="actor">
+                <img src="img/lee_seung_ki_foto1.jpg" alt="Actor 1">
+                <h5>Ли Сынги</h5>
+            </div>
+            <div class="actor">
+                <img src="img/lee_se_young_541127.jpg" alt="Actor 2">
+                <h5>Ли Сэ Ен</h5>
+            </div>
+
+            <div class="actor">
+                <img src="img/kim_seul_gi_222121.jpg" alt="Actor 2">
+                <h5>Ким Сыль Ги</h5>
+            </div>
+            <div class="actor">
+                <img src="img/oh_dong_min_1986_866779.jpg" alt="Actor 2">
+                <h5>О Дон Мин</h5>
+            </div>
+            <div class="actor">
+                <img src="img/kim_nam_hee_1986_660523.jpg" alt="Actor 2">
+                <h5>Ким Нам Хи</h5>
+            </div>
+            <div class="actor">
+                <img src="img/jang_hye_jin_1975_70260.jpg" alt="Actor 2">
+                <h5>Чан Хе Джин</h5>
+            </div>
+            <div class="actor">
+                <img src="img/ahn_dong_goo_1993_141663.jpg" alt="Actor 2">
+                <h5>Ан Дон Гу</h5>
+            </div>
+            <div class="actor">
+                <img src="img/kim_do_hoon_1998_750555.jpg" alt="Actor 2">
+                <h5>Ким До Хун</h5>
+            </div>
+            <div class="actor">
+                <img src="img/jo_han_chul_61385 (1).jpg" alt="Actor 2">
+                <h5>Чо Хан Чхоль</h5>
+            </div>
+    </div>
+    <button class="scroll-btn" id="next-btn">&#10095;</button>
+
+
+    <form id="commentForm">
+        <input type="text" id="name" name="name" placeholder="Имя"><br>
+        <textarea id="comment" name="comment" placeholder="Оставляй комментарии"></textarea><br>
+        <button type="submit">Отправить</button>
+    </form>
+    <div class="comment-block">
+        <ul id="commentsList">
+            <li class="comment">
+                <div class="comment-content">
+                    Елена
+                    <p>Очень люблю Ли Сын Ги! У него самые крутые роли, да и он сам очень харизматичный!)</p>
+                </div>
+                <button class="delete-btn">Удалить</button>
+            </li>
+
+            <li class="comment">
+                <div class="comment-content">
+                    Айсулу
+                    <p>Ли Сын Ги самый лучший!</p>
+                </div>
+                <button class="delete-btn">Удалить</button>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+
+    <footer>
+        <p>Fan Club Lee Seung Gi</p>
+        <p>Created by Aidana</p>
+    </footer>
+</body>
+</html>
